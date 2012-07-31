@@ -1,1 +1,94 @@
-My GitHub Page
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Huboard</title>
+    <link rel="shortcut icon" type="image/png" href="/images/favicon.png" />
+
+    <!-- This is a special version of jQuery with RequireJS built-in -->
+    <script src="/scripts/firebugx.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/scripts/underscore.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/scripts/backbone.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/scripts/postal.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/scripts/require.js"></script>
+    <script src="/scripts/module-loader.js"></script>
+
+    <script src="/scripts/bootstrap/bootstrap-dropdown.js"></script>
+    <script src="/scripts/bootstrap/bootstrap-twipsy.js"></script>
+    
+    <link rel="stylesheet" href="/styles/bootstrap.min.css">
+    <link rel="stylesheet" href="/styles/main.css" type="text/css" media="screen" charset="utf-8">
+  </head>
+  <body>
+    <div class="topbar-wrapper" style="z-index: 5;">
+    <div class="topbar" data-dropdown="dropdown">
+      <div class="topbar-inner">
+        <div class="container-fluid">
+          <h3><a href="/">Huboard</a></h3>
+          <ul class="nav">
+            
+          </ul>
+          <ul class="nav secondary-nav">
+            
+  <li>
+  <a href="/login">Login</a>
+  </li>
+
+
+            
+          </ul>
+        </div>
+      </div><!-- /topbar-inner -->
+    </div><!-- /topbar -->
+  </div>
+    <div class="container" id="main-stage">
+      <div class="drop-shadow lifted">
+  <h1>Welcome to Huboard</h1>
+
+<h2>How to set up YOUR repo</h2>
+
+<hr />
+
+<p>Add labels to your repository with the following pattern</p>
+
+<blockquote><p> # - Title</p>
+
+<p> # == index of column
+ Title == column header</p></blockquote>
+
+<p>Example:</p>
+
+<blockquote><p> 1 - Backlog</p>
+
+<p> 2 - Ready</p>
+
+<p> 3 - Working</p>
+
+<p> 4 - Done</p></blockquote>
+
+<p>The number represents the index of the column and the will be the column header</p>
+
+<h2>How to move cards with git commits</h2>
+
+<hr />
+
+<p>To move a card with a commit message add "push GH-#" anywhere in your commit message</p>
+
+<p>Other supported key words</p>
+
+<blockquote><p>push GH-#</p>
+
+<p>pushed GH-#</p>
+
+<p>move GH-#</p>
+
+<p>moves GH-#</p></blockquote>
+
+</div>
+
+
+    </div>
+
+  </body>
+</html>
